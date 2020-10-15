@@ -59,11 +59,17 @@ export const HeroSection = styled.section`
     }
   }
 
+  img {
+    width: 40vh;
+    mix-blend-mode: multiply;
+    transform: rotate(22deg);
+    animation: ${imgLoop} 3s infinite;
+  }
   @media (max-width: 800px) {
     height: auto;
     justify-content: left;
     span {
-      width: 80%;
+      width: 60%;
       p:first-child {
         font-size: 40px;
       }
@@ -73,18 +79,9 @@ export const HeroSection = styled.section`
     }
 
     img {
-      position: relative;
-      top: 0;
-      right: 40px;
-      width: 50vw;
+      width: 40%;
       z-index: 0;
     }
-  }
-  img {
-    width: 40vh;
-    mix-blend-mode: multiply;
-    transform: rotate(22deg);
-    animation: ${imgLoop} 3s infinite;
   }
 `;
 
