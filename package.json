@@ -23,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext ts,tsx src/* --no-error-on-unmatched-pattern"
+    "lint": "eslint --ext ts,tsx src/* --no-error-on-unmatched-pattern",
+    "coverage": "react-scripts test --watchAll=false --coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,7 +45,6 @@
     "eslint-plugin-react": "^7.21.4",
     "eslint-plugin-react-hooks": "^4.1.2",
     "eslint-plugin-testing-library": "^3.9.0",
-    "jest-environment-jsdom-sixteen": "^1.0.3",
     "prettier": "^2.1.2"
   },
   "browserslist": {
