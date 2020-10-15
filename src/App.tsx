@@ -7,7 +7,7 @@ import Pages from './pages';
 const src: React.FC = () => {
   return (
   <ThemeProvider theme={{ colors: { white: '#C8D7D0', brand: '#079B8F'}, typography: {} }}>
-    <Menu itens={[{ name: 'Gratidão', href: '/', selected: true}, { name: 'Conceitos', href: '/', selected: false}]} />
+    <Menu itens={[{ name: 'Gratidão', href: 'https://priceless-turing-b02a53.netlify.app', selected: false}, { name: 'Conceitos', href: '/', selected: true}]} />
     <Pages />
   </ThemeProvider>
   );

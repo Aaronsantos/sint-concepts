@@ -10,8 +10,8 @@ const Home: React.FC = () => {
     <Container>
       <HeroSection>
         <span>
-          <p className="enphasis">Gratidão</p>
-          <p>É um exercício diário</p>
+          <p className="enphasis">Busque</p>
+          <p>conhecimento</p>
         </span>
         <img
           aria-hidden
