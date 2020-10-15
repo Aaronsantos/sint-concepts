@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       <HeroSection>
         <span>
           <p className="enphasis">Busque</p>
-          <p>conhecimento</p>
+          <p>conhecimento </p>
         </span>
         <img
           aria-hidden
@@ -18,7 +18,6 @@ const Home: React.FC = () => {
           src={assets.FloatingHeadImg}
         />
       </HeroSection>
-
     </Container>
   );
 };
