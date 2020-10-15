@@ -2,7 +2,7 @@
 
 Small web-app with mental health theme made for fun and study pruposes.
 This project is part of a case-study on creation, deployment and integration of complex front-end Products.
-Its uses my personal "react ui-lib" Araceae-ui and works along side of the Sint - Gratitude, wich together make the main Sint product: an set of apps for mental health.
+Its uses my personal react ui-lib [Araceae-ui](https://github.com/Aaronsantos/Araceae-ui) and works along side of the [Sint - Gratitude](https://github.com/Aaronsantos/sint-gratitude), wich together make the main Sint conceptual product: an set of apps for mental health.
 
 Project Roadmap:
 - [X] MVP release using Araceae-UI.
