@@ -7,10 +7,10 @@ const Routes: React.FC = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route key="test" component={Home} path='/' exact />
+        <Route key="test" component={Home} path="/" exact />
       </Switch>
     </BrowserRouter>
   );
-}
+};
 
 export default Routes;

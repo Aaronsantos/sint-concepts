@@ -1,14 +1,30 @@
-import styled, {  keyframes } from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 const imgLoop = keyframes`
   0% {
-    transform: rotate(10deg)
+    transform: scale(1,1);
+  }
+
+  50% {
+    transform: scale(1,1);
+  }
+
+  55% {
+    transform: scale(-1,1);
+  }
+
+  70% {
+    transform: scale(-1,1);
+  }
+
+  75% {
+    transform: scale(1,1);
   }
 
   100% {
-    transform: rotate(22deg)
+    transform: scale(1,1)
   }
-`
+`;
 
 export const Container = styled.main`
   max-width: 920px;
@@ -54,7 +70,6 @@ export const HeroSection = styled.section`
       p:last-child {
         font-size: 24px;
       }
-
     }
 
     img {
@@ -64,22 +79,21 @@ export const HeroSection = styled.section`
       width: 50vw;
       z-index: 0;
     }
-
   }
   img {
     width: 40vh;
     mix-blend-mode: multiply;
     transform: rotate(22deg);
-    animation: ${imgLoop} 2s infinite alternate-reverse;
+    animation: ${imgLoop} 3s infinite;
   }
-`
+`;
 
 export const QuoteSection = styled.section`
   margin: 80px auto;
   @media (max-width: 800px) {
     margin: 80px 16px;
   }
-`
+`;
 
 export const ButtonSection = styled.section`
   width: 100%;
@@ -87,4 +101,4 @@ export const ButtonSection = styled.section`
   justify-content: center;
   align-items: center;
   margin-bottom: 80px;
-`
+`;
