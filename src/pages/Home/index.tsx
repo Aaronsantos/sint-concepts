@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useHistory } from 'react-router-dom';
-import { assets, Button } from 'araceae-ui';
+import React from 'react';
+import { assets } from 'araceae-ui';
 
 import { Container, HeroSection } from './styles';
 
